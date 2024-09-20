@@ -1,0 +1,45 @@
+**Program Pertama Kotlin**
+fun main() {
+    println("Hello, world!")
+}
+Output: Hello, world
+
+fun main() {
+    println("Tuesday")
+    println("Thursday")
+    println("Wednesday")
+    println("Friday")
+    println("Monday")
+}
+Output: Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+
+
+**Membuat Dan Menggunakan Variabel di kotlin**
+fun main() {
+    val count: Int = 2
+    println(count)
+}
+Ouput: 2
+
+fun main() {
+    birthdayGreeting()
+}
+
+fun birthdayGreeting() {
+    println("Happy Birthday, Rover!")
+    println("You are now 5 years old!")
+}
+Output: Happy Birthday, Rover!
+You are now 5 years old!
+
+**Mempebaruih Variabel**
+fun main() {
+    var cartTotal = 0
+    cartTotal = 20
+    println("Total: $cartTotal")
+}
+Output: carTotal = 20
